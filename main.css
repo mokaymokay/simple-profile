@@ -28,7 +28,7 @@ body, html {
 .nav li {
     display: inline;
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .nav li a:hover {
@@ -48,6 +48,7 @@ header h1{
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
+    padding:10px;
 }
 
 .profile-picture {
@@ -110,7 +111,7 @@ blockquote {
 footer {
     display: block;
     text-align: center;
-    padding: 0 0 20px 0;
+    width: 100%;
 }
 
 /* style all font awesome icons */
