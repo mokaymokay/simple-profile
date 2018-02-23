@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #555;
+    height: 100%;
 }
 
 /* navigation bar */
@@ -55,6 +56,7 @@ header h1{
 
 .profile-picture img {
     border-radius: 3%;
+    width: 32%;
 }
 
 .list {
@@ -75,9 +77,9 @@ header h1{
 }
 
 .about-me-paragraphs {
-    width: 500px;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
     border-width: 10px;
     text-align: justify;
 }
@@ -85,6 +87,7 @@ header h1{
 blockquote {
     font-family: serif;
     font-style: italic;
+    text-align: center;
 }
 
 /* gallery */
@@ -152,6 +155,7 @@ footer {
     display: block;
     text-align: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 /* style all font awesome icons */
