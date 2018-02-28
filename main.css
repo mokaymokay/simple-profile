@@ -92,21 +92,26 @@ blockquote {
 }
 
 /* gallery */
-div.container {
-    position: relative;
-    width: 96%;
-    max-width: 960px;
-    margin: 0 auto;
+.container {
+    display: flex;
+    flex-flow: row-wrap;
+    padding: 0 5vw 0 5vw;
 }
 
-.three-columns {
-    width: 32%;
-    display: inline-block;
+.grid {
+    flex: auto;
+    padding: 0.15vw 0.3vw 0.3vw 0.3vw;
 }
 
-.two-columns {
-    width: 48%;
-    display: inline-block;
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
 }
 
 /* footer */
