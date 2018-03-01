@@ -1,6 +1,7 @@
 /* typography */
-body, html {
+body {
     margin: 0;
+    padding: 0;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     color: #555;
@@ -12,8 +13,6 @@ body, html {
     position: static;
     width: 100%;
   	float: right;
-  	margin: 0;
-  	padding: 0;
   	list-style: none;
 }
 
@@ -22,18 +21,16 @@ body, html {
     overflow: hidden;
     display: flex;
     float: right;
-    margin: 0;
-    padding: 0;
 }
 
 .nav li {
     display: inline;
-    float: right;
     margin-bottom: 20px;
 }
 
 .nav li a:hover {
     color: #538cc6;
+    font-style: oblique;
 }
 
 .nav a {
@@ -44,7 +41,7 @@ body, html {
 }
 
 /* profile content */
-header h1{
+h1 {
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
@@ -68,12 +65,10 @@ header h1{
     display: inline-block;
     margin: auto;
     padding: auto;
-    position: relative;
 }
 
 .list li {
     text-align: left;
-    height: 25px;
     line-height: 25px;
 }
 
@@ -95,7 +90,6 @@ blockquote {
 /* gallery */
 .container {
     display: flex;
-    flex-flow: row-wrap;
     padding: 0 5vw 0 5vw;
 }
 
@@ -109,7 +103,7 @@ blockquote {
     height: auto;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 414px) {
     .container {
         flex-direction: column;
     }
