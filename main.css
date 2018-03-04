@@ -44,13 +44,10 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
     padding: 10px;
+    font-size: 1.8rem;
 }
 
 /* profile content */
-
-#main-description {
-    display: flex;
-}
 
 .profile-picture {
     text-align: center;
@@ -87,34 +84,32 @@ h1 {
 blockquote {
     font-family: serif;
     font-style: italic;
-    font-size: 105%;
+    font-size: 1rem;
     text-align: center;
 }
 
-q {
-    width: 70%;
-}
+q { width: 70%; }
 
 /* gallery */
 .container {
     display: flex;
-    padding: 0 5vw 0 5vw;
+    padding: 0 2vw 0 2vw;
 }
 
-.grid {
+.photo {
     flex: auto;
     padding: 0.15vw 0.3vw 0.3vw 0.3vw;
 }
 
-.grid img {
+.photo img {
     width: 100%;
     height: auto;
 }
 
 @media all and (max-width: 414px) {
-    .container {
-        flex-direction: column;
-    }
+    .container { flex-direction: column; }
+    .photo { padding: 1vw; }
+    .profile-picture img { width: 60%; }
 }
 
 /* footer */
